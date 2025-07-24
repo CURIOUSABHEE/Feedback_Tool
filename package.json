@@ -1,0 +1,36 @@
+{
+  "name": "firstsaas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.9.1",
+    "@vercel/analytics": "^1.5.0",
+    "axios": "^1.10.0",
+    "bad-words": "^4.0.0",
+    "google": "^2.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
+    "next": "15.3.3",
+    "next-auth": "^5.0.0-beta.28",
+    "postcss": "^8.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "resend": "^4.5.2",
+    "tailwindcss": "^4.1.8",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.8",
+    "daisyui": "^5.0.43",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3"
+  }
+}
